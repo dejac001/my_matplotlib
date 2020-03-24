@@ -8,7 +8,7 @@ allowing you to toggle options specific for each journal.
 
 * This matplotlibrc requires latex. If you dont want to use latex you can turn it off by changing
 
-```text.usetex         : False ```
+```text.usetex         : False```
 
 plots with error bars
 =====================
@@ -33,4 +33,10 @@ ax = f.add_subplot(111)
 ...
 ax.legend(**kwargs)```
 
+
 Some useful keyword arguments are below
+
+* creating legend boxes:  ```kwargs = dict(edgecolor='inherit', frameon=True, fancybox=False)```
+   - you can play with the fancybox argument to see if you like it
+* adding space between legend entries: ```kwargs = dict(handletextpad=0.2)```
+   - This is typically useful when your legend entries are all lines, and the labels get too close to the legend entries
