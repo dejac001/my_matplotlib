@@ -27,11 +27,7 @@ Legends
 =======
 Usually you make a legend to a plot with
 
-```import matplotlib.pyplot as plt
-f = plt.figure()
-ax = f.add_subplot(111)
-...
-ax.legend(**kwargs)```
+```ax.legend(**kwargs)```
 
 
 Some useful keyword arguments are below
