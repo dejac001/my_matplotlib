@@ -6,7 +6,9 @@ matplotlibrc
 I recommend making one for each journal submission,
 allowing you to toggle options specific for each journal.
 
-* This matplotlibrc requires latex. If you dont want to use latex you can turn it off
+* This matplotlibrc requires latex. If you dont want to use latex you can turn it off by changing
+
+```text.usetex         : False ```
 
 plots with error bars
 =====================
@@ -20,3 +22,15 @@ Above that layer, I plot white symbols of the same symbol type
 to hide the error bars behind.
 Above that layer I plot the actual symbols, and I add the legend key
 on this layer too.
+
+Legends
+=======
+Usually you make a legend to a plot with
+
+```import matplotlib.pyplot as plt
+f = plt.figure()
+ax = f.add_subplot(111)
+...
+ax.legend(**kwargs)```
+
+Some useful keyword arguments are below
