@@ -6,6 +6,7 @@ matplotlibrc
 I recommend making one for each journal submission,
 allowing you to toggle options specific for each journal.
 
+* This matplotlibrc requires latex. If you dont want to use latex you can turn it off
 
 plots with error bars
 =====================
